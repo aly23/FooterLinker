@@ -6,9 +6,7 @@
 
 ## Demo
 
-![FooterLinkerMore demo](https://raw.githubusercontent.com/aly23/FooterLinker/master/Resources/FooterLinkerMore.gif)
-
-![FooterLinkerLess demo](https://raw.githubusercontent.com/aly23/FooterLinker/master/Resources/FooterLinkerLess.gif)
+![FooterLinkerMore demo](https://raw.githubusercontent.com/aly23/FooterLinker/master/Resources/FooterLinkerMore.gif) ![FooterLinkerLess demo](https://raw.githubusercontent.com/aly23/FooterLinker/master/Resources/FooterLinkerLess.gif)
 
 ## Example
 
@@ -32,7 +30,7 @@ pod 'FooterLinker'
 1. Create a table view and a footer view in your view controller storyboard.
 2. The bottom constraint of the footer and the table view must be linked.
 
-![FooterLinker storyboard example](https://raw.githubusercontent.com/aly23/FooterLinker/master/Resources/StoryboardExample)
+![FooterLinker storyboard example](https://raw.githubusercontent.com/aly23/FooterLinker/master/Resources/StoryboardExample.png)
 
 3. FooterLinker must be strong retained by the view controller. To initialize and setup it just use this simple line of code:
 
