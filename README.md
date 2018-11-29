@@ -6,7 +6,7 @@
 
 ## Demo
 
-![FooterLinkerMore demo](https://raw.githubusercontent.com/aly23/FooterLinker/master/Resources/FooterLinkerMore.gif)_
+![FooterLinkerMore demo](https://raw.githubusercontent.com/aly23/FooterLinker/master/Resources/FooterLinkerMore.gif)
 ![FooterLinkerLess demo](https://raw.githubusercontent.com/aly23/FooterLinker/master/Resources/FooterLinkerLess.gif)
 
 ## Example
