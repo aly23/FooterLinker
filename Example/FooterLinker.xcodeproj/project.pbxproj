@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		285801BCE6D2ED7F5ED4C160 /* Pods-FooterLinker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FooterLinker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FooterLinker_Example/Pods-FooterLinker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		30E60221B79F0A5E4081AA47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		30E60221B79F0A5E4081AA47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* FooterLinker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FooterLinker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,9 +42,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		62F97EA45C45E7F2647AFBD9 /* Pods-FooterLinker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FooterLinker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FooterLinker_Tests/Pods-FooterLinker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7FD0FC8BAB0F66BB8430027A /* Pods_FooterLinker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FooterLinker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9357102450ACD9EB34665719 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9357102450ACD9EB34665719 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A778DB8A14808895B4F93E1F /* Pods-FooterLinker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FooterLinker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FooterLinker_Example/Pods-FooterLinker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CAC62E5382E666BF7D764E73 /* FooterLinker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FooterLinker.podspec; path = ../FooterLinker.podspec; sourceTree = "<group>"; };
+		CAC62E5382E666BF7D764E73 /* FooterLinker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FooterLinker.podspec; path = ../FooterLinker.podspec; sourceTree = "<group>"; };
 		E03C9C50E2F1B291951A6A0D /* Pods-FooterLinker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FooterLinker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FooterLinker_Tests/Pods-FooterLinker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FBB23861839CB26FA394EE96 /* Pods_FooterLinker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FooterLinker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -482,6 +482,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FooterLinker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -497,6 +498,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FooterLinker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

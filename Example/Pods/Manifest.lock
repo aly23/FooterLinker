@@ -1,0 +1,16 @@
+PODS:
+  - FooterLinker (0.1.0)
+
+DEPENDENCIES:
+  - FooterLinker (from `../`)
+
+EXTERNAL SOURCES:
+  FooterLinker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FooterLinker: 8e9a39c70e65680e06010ad40b877ae6c3f622ed
+
+PODFILE CHECKSUM: 58a1a0a2c8e7a936215180376b70c9184ecdcbbf
+
+COCOAPODS: 1.5.3

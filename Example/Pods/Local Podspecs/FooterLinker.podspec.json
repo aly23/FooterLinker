@@ -1,0 +1,22 @@
+{
+  "name": "FooterLinker",
+  "version": "0.1.0",
+  "summary": "A short description of FooterLinker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Alice Migliorati/FooterLinker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Alice Migliorati": "a.migliorati@reply.it"
+  },
+  "source": {
+    "git": "https://github.com/Alice Migliorati/FooterLinker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FooterLinker/Classes/**/*"
+}
