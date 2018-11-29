@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FooterLinker_Example' do
+  pod 'FooterLinker', :path => '../'
+
+  target 'FooterLinker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
