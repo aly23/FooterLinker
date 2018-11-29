@@ -4,6 +4,8 @@
 [![License](https://img.shields.io/cocoapods/l/FooterLinker.svg?style=flat)](https://cocoapods.org/pods/FooterLinker)
 [![Platform](https://img.shields.io/cocoapods/p/FooterLinker.svg?style=flat)](https://cocoapods.org/pods/FooterLinker)
 
+The footer comes at the end of all the table contents and will still sticky even if if the contents are less than the height of the view.
+
 ## Demo
 
 ![FooterLinkerMore demo](https://raw.githubusercontent.com/aly23/FooterLinker/master/Resources/FooterLinkerMore.gif)
