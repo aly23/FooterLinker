@@ -4,7 +4,10 @@
 [![License](https://img.shields.io/cocoapods/l/FooterLinker.svg?style=flat)](https://cocoapods.org/pods/FooterLinker)
 [![Platform](https://img.shields.io/cocoapods/p/FooterLinker.svg?style=flat)](https://cocoapods.org/pods/FooterLinker)
 
-The footer comes at the end of all the table contents and will still sticky even if the contents are less than the height of the view. Moreover the footer height stretch following the bounce of the table view.
+This resolve a common issue that affects the footer of a tableView:
+- must be anchored to the bottom of the page if the content of table is smaller than the page height
+- scrolls with the tableView if the content is larger than the page height
+- stretch following the bounce of the table view
 
 ## Demo
 
